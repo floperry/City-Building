@@ -1,9 +1,9 @@
-1.git usage
+# 1.git usage
 
-  a) add ssh key
+ # a) add ssh key
   https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account
   $ ls -al ~/.ssh
-  # Lists the files in your .ssh directory, if they exist
+  Lists the files in your .ssh directory, if they exist
   
   $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 This creates a new ssh key, using the provided email as a label.
@@ -22,10 +22,10 @@ At the prompt, type a secure passphrase. For more information, see "Working with
   $ ssh-add ~/.ssh/id_rsa
   
   $ clip < ~/.ssh/id_rsa.pub
-# Copies the contents of the id_rsa.pub file to your clipboard
+  Copies the contents of the id_rsa.pub file to your clipboard
 
   
-  b)clone/commit/and push  
+  # b)clone/commit/and push  
   https://rogerdudler.github.io/git-guide/
   git clone username@host:/path/to/repository
   
